@@ -107,7 +107,7 @@ a:hover {
 }
 
 .showcase {
-  background: url(/imgs/th-header.jpg);
+  background: url(./imgs/th-header.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -404,7 +404,7 @@ button:hover {
 .container .pics .left-arrow,
 .container .pics .right-arrow {
   position: absolute;
-  top: 42%;
+  top: 40%;
   width: 3rem;
   height: 3rem;
   background-color: #fff;

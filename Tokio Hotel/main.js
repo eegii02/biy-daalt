@@ -19,29 +19,29 @@ document.querySelectorAll('.p-1').forEach(el => el.addEventListener('click', ()=
   menu.classList.remove('active');
 }))
 
-const images = ['/album/1.jpg','/album/2.jpg', '/album/3.jpg', '/album/4.jpg', '/album/5.jpg'];
+const images = ['./Tokio Hotel/album/1.jpg','./Tokio Hotel/album/2.jpg', './Tokio Hotel/album/3.jpg', './Tokio Hotel/album/4.jpg', './Tokio Hotel/album/5.jpg'];
 let id = 0;
 
 const songs = [
   {
     name: 'Another Lover',
-    song: 'songs/Another Lover.mp3'
+    song: './Tokio Hotel/songs/Another Lover.mp3'
   },
   {
     name: 'Runaway',
-    song: 'songs/Runaway.mp3'
+    song: './Tokio Hotel/songs/Runaway.mp3'
   },
   {
     name: 'Dreamer',
-    song: 'songs/Dreamer.mp3'
+    song: './Tokio Hotel/songs/Dreamer.mp3'
   },
   {
     name: 'Smells Like Summer',
-    song: 'songs/Smells Like Summer.mp3'
+    song: './Tokio Hotel/songs/Smells Like Summer.mp3'
   },
   {
     name: `Ain't Happy`,
-    song: `songs/Ain't Happy.mp3`
+    song: `./Tokio Hotel/songs/Ain't Happy.mp3`
   }
 ]
 
